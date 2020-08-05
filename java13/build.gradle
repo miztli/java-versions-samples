@@ -17,6 +17,11 @@ plugins {
     id 'groovy'
 }
 
+java {
+    sourceCompatibility=JavaVersion.VERSION_13
+    targetCompatibility=JavaVersion.VERSION_13
+}
+
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
@@ -35,4 +40,16 @@ dependencies {
 application {
     // Define the main class for the application.
     mainClassName = 'java13.App'
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs += "--enable-preview"
+}
+
+tasks.withType(Test) {
+    jvmArgs += "--enable-preview"
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs += '--enable-preview'
 }
