@@ -1,20 +1,10 @@
 # build sources
-java8/build/*
-java9/build/*
-java10/build/*
-java11/build/*
-java12/build/*
-java13/build/*
-java14/build/*
+*/build/*
+*/out/*
 
 # idea
-java8/.idea
-java9/.idea
-java10/.idea
-java11/.idea
-java12/.idea
-java13/.idea
-java14/.idea
+*.iml
+*/.idea
 .idea/
 
 # jenv
