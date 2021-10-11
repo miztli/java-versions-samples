@@ -1,6 +1,7 @@
 # build sources
 */build/*
 */out/*
+*/gradle/*
 
 # idea
 *.iml
