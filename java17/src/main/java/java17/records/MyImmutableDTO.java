@@ -1,4 +1,4 @@
-package example;
+package java17.records;
 
 /*
 * Java 14 introduced record keyword and Java 15 improved it.

@@ -1,4 +1,4 @@
-package example;
+package java17.records;
 
 /**
  * Please, add junit once gradle supports jdk 17
