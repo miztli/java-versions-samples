@@ -1,4 +1,4 @@
-package example;
+package java15;
 
 public class App {
     public String getGreeting() {
